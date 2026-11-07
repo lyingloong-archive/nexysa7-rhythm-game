@@ -1,0 +1,26 @@
+# Normalise line endings for source and documentation.
+* text=auto eol=lf
+
+# Binary assets
+*.bit binary
+*.bin binary
+*.jpg binary
+*.jpeg binary
+*.png binary
+*.gif binary
+*.pdf binary
+
+# Explicit text types (kept as LF in the repository)
+*.v        text eol=lf
+*.vh       text eol=lf
+*.sv       text eol=lf
+*.xdc      text eol=lf
+*.coe      text eol=lf
+*.mem      text eol=lf
+*.md       text eol=lf
+*.py       text eol=lf
+*.cpp      text eol=lf
+*.h        text eol=lf
+*.tcl      text eol=lf
+*.yml      text eol=lf
+Makefile   text eol=lf
